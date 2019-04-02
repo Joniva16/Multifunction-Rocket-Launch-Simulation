@@ -90,7 +90,7 @@ def update(a):
                         [int(a)+5.7],
                         [int(a)+6],])
     ax2.axis('off')
-    ax2.set_title("Temperature of a space shuttle\nin relation to thrust augmentation")
+    ax2.set_title("Temperature of a space shuttle")
     img = plt.imread("vostok.png")
     ax2.imshow(harvest2,zorder=1,cmap="YlOrRd", vmin=5, vmax=11,extent=[0,10,0,22])
     ax2.imshow(img,zorder=2,extent=[0,10,0,22])
