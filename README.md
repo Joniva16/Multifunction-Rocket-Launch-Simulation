@@ -8,7 +8,7 @@ This program uses simple base level physics to create plots based off accelerati
 
 ## How to execute
 ```
-git clone 
+git clone https://github.com/joniva/Rocket_Launch.git
 cd Rocket_Launch
 pip3 install matplotlib
 pip3 install numpy
